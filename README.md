@@ -47,7 +47,7 @@ Thank you for [Antirez][] to letting me open source theme.
 
 **Contributors**:
 
-* Rıza Selçuk Saydam ( [@rssems](http://twitter.com/rssems ) / [rss-ems.com](http://andrewnorcross.com/) )
+* Rıza Selçuk Saydam ( [@rssems](http://twitter.com/rssems ) / [rss-ems.com](http://rss-ems.com/) )
 * Ahmet Alp Balkan ( [@ahmetalpbalkan](http://twitter.com/ahmetalpbalkan ) / [ahmetalpbalkan.com](http://ahmetalpbalkan.com/) )
 
 ## To Do

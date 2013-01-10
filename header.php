@@ -44,7 +44,4 @@
 			    echo $out;
 			?>
 		</nav>
-		<nav id="account">
-			<a href="javascript:;" onClick="alert('Coming Soon!');"><small>download theme for free →</small></a>
-		</nav>
 	</header>
