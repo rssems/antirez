@@ -11,7 +11,7 @@
  [1]: https://github.com/rssems/antirez/blob/master/screenshot.jpg?raw=true
 
 ## Features
-* HTML pre Tag style wordpress theme
+* HTML 'pre' Tag style wordpress theme
 * using HTML5, CSS3 & has a strong semantic foundation
 * Seo friend (using schema.org)
 * Very small load query
@@ -50,6 +50,5 @@ Thank you for [Antirez][] to letting me open source theme.
 * Rıza Selçuk Saydam ( [@rssems](http://twitter.com/rssems ) / [rss-ems.com](http://andrewnorcross.com/) )
 * Ahmet Alp Balkan ( [@ahmetalpbalkan](http://twitter.com/ahmetalpbalkan ) / [ahmetalpbalkan.com](http://ahmetalpbalkan.com/) )
 
-
-    $ TO-DO
-    > Link Posting.
+## To Do
+* Link Posting.
