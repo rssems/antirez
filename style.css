@@ -1,0 +1,348 @@
+/*
+Theme Name: Antirez
+Theme URI: http://beta.rss-ems.com/antirez
+Description: HTML5, CSS3 and SEO Friendly WordPress Theme by <a href="http://www.antirez.com">Antirez weblog</a>
+Version: 1.0
+Author:  Riza Selcuk Saydam
+Author URI: http://www.rss-ems.com/blog
+*/
+
+@import url('css/reset.css');
+@import url('css/wordpress.css');
+
+body {
+    font-family: "Helvetica Neue";
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration:none;
+    color:#666;
+}
+
+h2 {
+    margin-bottom:20px;
+    font-size:22px;
+    color:#333;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display:block;
+    position:relative;
+    padding: 17px 0px 0px 15px;
+}
+
+header h1 {
+    display: inline;
+    font-size:2.0em;
+    font-weight:bold;
+    color:#333;
+}
+
+header h1 a {
+    color:#333;
+}
+
+header h1 small {
+    font-size: 14px;
+}
+
+#content {
+    display:block;
+    margin-top:24px;
+    margin-bottom:20px;
+    padding: 15px;
+}
+
+footer {
+    display:block;
+    border-top: 1px #ccc solid;
+    text-align: center;
+    color:#ccc;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+nav {
+    margin-bottom:15px;
+    display: inline;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+#account {
+    color:#aaa;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+#account a {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#login,#submitform {
+    display:block;
+    position:relative;
+    width:150px;
+}
+
+#login label, #submitform label {
+    font-size:12px;
+    font-weight:bold;
+}
+
+div #errormsg {
+    width:400px;
+    color:#ff9999;
+    font-weight:bold;
+    margin-top: 15px;
+}
+
+article {
+    display: block;
+    font-size: 16px;
+    margin-bottom:10px;
+    border: 1px solid transparent;
+}
+
+article pre {
+    width:50em;
+    position:relative;
+    left:60px;
+    top:10px;
+    font-family: Courier;
+    font-size: 14px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    line-height: 17px;
+    margin-top: 3px;
+}
+
+article.active {
+    border: 1px dashed #000;
+}
+
+article h2, article h1 {
+    display: inline;
+    font-size:20px;
+}
+
+article address {
+    display: inline;
+    color: #999;
+    font-size:14px;
+}
+
+article small {
+    font-size:14px;
+}
+
+article h2 a, article h1 a {
+    color: black;
+}
+
+article h2 a:visited, article h1 a:visited {
+    color: #666;
+}
+
+article .uparrow, article .downarrow {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+article .uparrow {
+    color:#999;
+}
+
+article .downarrow {
+    color:#ccc;
+}
+
+article p {
+    font-size:14px;
+    color:#999;
+    margin-left:20px;
+}
+
+article p a {
+    color: #666;
+}
+.article {
+    margin-left: 1px
+}
+.article .uparrow.voted, .article .uparrow.voted {
+    color:#99dd99;
+}
+
+.article .downarrow.voted, .article .downarrow.voted {
+    color:#dd9999;
+}
+
+article .downarrow.disabled, .uparrow.disabled {
+    visibility: hidden;
+}
+
+article.deleted {
+    padding-left:20px;
+    color:#999;
+}
+
+form textarea {
+    font-family: Courier;
+    font-size:14px;
+}
+
+.article {
+    position:relative;
+    width:500px;
+    display:block;
+    min-height:50px;
+    margin-bottom: 30px;
+}
+
+.article .avatar img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:48px;
+    height:48px;
+    margin-top: -3px;
+}
+
+.article .info {
+    position:relative;
+    left:60px;
+    font-size:14px;
+    color:#999;
+    margin-top: 6px;
+    display: block;
+}
+
+.article .info a.reply {
+    text-decoration:underline;
+    padding-left:5px;
+}
+
+.article pre {
+    width:50em;
+    position:relative;
+    left:60px;
+    top:10px;
+    font-family: Courier;
+    font-size: 14px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.article .uparrow, .article .downarrow {
+    color:#aaa;
+    font-size:14px;
+}
+/*
+note {
+    color: #666;
+    margin-left:20px;
+    font-size:14px;
+}
+*/
+.comment.deleted {
+    color: #999;
+}
+/*
+topcomment {
+    display:block;
+}
+*/
+.singlecomment {
+    background-color: #eee;
+    border: 1px dotted #ccc;
+    padding: 15px;
+    margin:10px;
+}
+
+.commentreplies h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #aaa;
+}
+
+.commentreplies {
+    margin-left:50px;
+    margin-bottom:50px;
+}
+
+.userinfo ul li {
+    margin-bottom:10px;
+}
+
+.userinfo p {
+    color: #666;
+    font-style: italic;
+    margin:20px;
+}
+
+.userinfo .avatar img {
+    width:48px;
+    height:48px;
+}
+
+.userinfo h2 {
+    position:relative;
+    left:15px;
+    top:-15px;
+    display:inline;
+    font-size:28px;
+    color: #444;
+}
+
+.userinfo a {
+    text-decoration: underline;
+}
+
+.replies sup {
+    font-size:12px;
+    color: white;
+    background-color:red;
+    border: red 1px solid;
+    border-radius: 25px;
+    padding-left:3px;
+    padding-right:3px;
+    position:relative;
+    top:-7px;
+    left:-5px;
+    opacity:0.7
+}
+
+#adminlinks li {
+    list-style-type: disc;
+    margin-left:20px;
+}
+
+#adminlinks h3 {
+    margin-top:20px;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+span.clear {
+    display: block;
+}
