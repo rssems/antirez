@@ -11,13 +11,14 @@
  [1]: https://github.com/rssems/antirez/blob/master/screenshot.jpg?raw=true
 
 ## Features
-* HTML <pre> Tag style wordpress theme
+* HTML pre Tag style wordpress theme
 * using HTML5, CSS3 & has a strong semantic foundation
 * Seo friend (using schema.org)
 * Very small load query
 * Very small footprint: Entire theme is only 27kb
-* 404 page
 * IE HTML5shim support
+* Gravatar Support
+* 404 page
 
 ## Demonstration
 
@@ -50,5 +51,5 @@ Thank you for [Antirez][] to letting me open source theme.
 * Ahmet Alp Balkan ( [@ahmetalpbalkan](http://twitter.com/ahmetalpbalkan ) / [ahmetalpbalkan.com](http://ahmetalpbalkan.com/) )
 
 
-## To-do
-* Link Posting
+    $ TO-DO
+    > Link Posting.
