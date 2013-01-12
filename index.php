@@ -7,10 +7,10 @@
       	<?php if (have_posts()) : ?>
       	<?php while (have_posts()) : the_post(); ?>
 			<article data-news-id="post-<?php the_ID(); ?>" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
-				<meta content="<?php the_permalink() ?>" itemprop="url">
+				<meta content="<?php if( $linkx = get_post_meta($post->ID, "link", true) ): ?><?php echo $linkx; ?><?php else: ?><?php the_permalink() ?><?php endif; ?>" itemprop="url">
 
 				<h2 itemprop="name">
-					<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+					<a href="<?php if( $linkx = get_post_meta($post->ID, "link", true) ): ?><?php echo $linkx; ?><?php else: ?><?php the_permalink() ?><?php endif; ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 				</h2>
 
 				<small>

@@ -18,7 +18,8 @@
 * Very small footprint: Entire theme is only 27kb
 * IE HTML5shim support
 * Gravatar Support
-* 404 page
+* 404 Page
+* URL Posting
 
 ## Demonstration
 
@@ -39,7 +40,13 @@ Clone the git repo - `git clone git://github.com/rssems/antirez.git` - or, [down
 You can use admin theme options. (WP-Admin > Antirez Theme)
 
 ### What about link posting?
-[IN PROGRESS]
+While adding new post, if you add new custom field with "link" as a name and "YOUR URL" as a value, it will be change post url to your url. Here is example:
+
+![][2]
+
+ [2]: http://img850.imageshack.us/img850/4835/74842695.png
+
+
 
 ## Thank you
 Thank you for [Antirez][] to letting me open source theme.
@@ -49,6 +56,3 @@ Thank you for [Antirez][] to letting me open source theme.
 
 * Rıza Selçuk Saydam ( [@rssems](http://twitter.com/rssems ) / [rss-ems.com](http://rss-ems.com/) )
 * Ahmet Alp Balkan ( [@ahmetalpbalkan](http://twitter.com/ahmetalpbalkan ) / [ahmetalpbalkan.com](http://ahmetalpbalkan.com/) )
-
-## To Do
-* Link Posting.
